@@ -1,0 +1,58 @@
+<!--
+    LivePond.net ver: 3.0
+    Created By: Nathan Johnson
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=0.5">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="keywords" content="live, pond, fish, koi, webcam, online, boise, idaho, eagle, livepond">
+        <meta name="description" content="Live webcam of a relaxing koi pond in Boise, Idaho!">
+        <meta name="copyright" content="Copyright Nathan Johnson 18 October 2019">
+        <link rel="icon" type="image/png" href="images/icon.png">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Bitter:400&display=swap" rel="stylesheet">
+        <title>LivePond.net</title>
+    </head>
+    <body>
+        <div id="banner" class="banner">
+            <iframe title="live" id='fp_embed_player' src='https://rtsp.me/embed/h5RAQ6F3/' marginwidth='0' marginheight='0' frameborder='0' width='100%' height='100%' scrolling='no' allowfullscreen></iframe>
+		</div>
+        <div id="navbar">
+            <div id="logo">
+                <h1>LivePond.net</h1>
+                <div id="logo_underline"></div>
+            </div>
+            <a href="mailto:mc.choof15@gmail.com">Contact</a>
+            <a href="sites/minecraft/index.html">Minecraft</a>
+            <a href="https://www.youtube.com/channel/UCDi351me_pjpVcfXWFjyOmQ">YouTube</a>
+            <a href="#">Live</a>
+            <a href="#homescrollposition">Home</a>
+        </div>
+        <div id="homescrollposition"></div>
+        <div id="main">
+            <h1>Welcome to LivePond.net!</h1>
+            <div id='underline'></div>
+            <p>
+			    Live webcam of a relaxing koi pond in Boise, Idaho. &nbsp;This pond contains 2 koi and several goldfish who have been in the the pond for almost two years. &nbsp;The yellow and black spotted fish, and the black, white, and orange spotted fish are koi. &nbsp;All the other fish are normal goldfish.
+                <br/>
+                <br/>Best Viewing times: &nbsp;2:30pm to 5:30pm
+                <br/>Normal Feeding time: &nbsp;3:00pm to 6:30pm
+            </p>
+            <div id="weather_api">
+				<a class="weatherwidget-io" href="https://forecast7.com/en/43d70n116d35/eagle/?unit=us" data-label_1="Weather" data-label_2="www.livepond.net" data-mode="Current" data-days="3" data-theme="weather_one"></a>
+			</div>
+            <div class="yt">
+                <iframe title="video1" class="yt" width="560" height="315" src="https://www.youtube.com/embed/6Y3xW_bkCHQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe title="video2" class="yt" width="560" height="315" src="https://www.youtube.com/embed/NTI82q6JOEc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <p>&copy; <a id="copy" href="http://www.github.com/Dapp3rDuck">Nathan Johnson</a> 2019</p>
+        </div>
+    </body>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script>
+        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+    </script>
+</html>

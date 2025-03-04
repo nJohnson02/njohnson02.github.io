@@ -1,0 +1,32 @@
+h1 {
+	color: yellow;
+	position: relative;
+	background-color: black;
+	padding: 20px;
+	outline: 5px solid yellow;
+}
+div.nav {
+	position: relative;
+	background-color: black;
+	outline: 5px solid yellow;
+	height: 65px;
+}
+a.link1:hover {
+	background-color: gray;
+}
+a.link2:hover {
+	background-color: gray;
+}
+a.link3:hover {
+	background-color: gray;
+}
+a.link1 {
+	font-size: 16;
+	padding: 20px;
+	color: white;
+	position: relative;
+	top: 24px;
+	left: 30px;
+	text-decoration: none;
+	margin-right: 10px;
+}

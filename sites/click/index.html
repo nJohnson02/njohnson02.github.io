@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>10 SECOND CLICK!</title>    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+    <style type="text/css">
+    html, body {
+        padding: 0;
+        margin: 0;
+    }
+    button {
+        width: 100%;
+        height: 100%;
+        font-size: 2000%;
+        background-color: black;
+        color: white;
+        border: 0px;
+    }
+    </style>
+    <body>
+        <button class="btn">CLICK!</button>   
+        <script type="text/javascript">
+        var counter = 0;
+        var count = 0;
+        $('.btn').click(() => {
+            var interval = setInterval(function() {
+                counter++;
+                if (counter == 1) {
+                    alert(`You can click ${count / 10} times/second!`);
+                    clearInterval(interval);
+                    location.reload()
+                }
+            }, 10000);
+        });
+        if (count < 1) {
+            $('.btn').click(() => {
+                count++;
+                $('.btn').html(count);
+            });
+        }
+        </script>
+    </body>
+</html>

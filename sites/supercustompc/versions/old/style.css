@@ -1,0 +1,74 @@
+body {
+    background-image:radial-gradient(
+        rgb(0, 0, 300),rgb(0, 0, 0)
+        );
+    margin-top:20px;
+    margin-bottom:40px;
+}
+a {
+text-decoration:none;
+}
+button.buy {
+position:relative;
+left:50px;
+background-color:rgb(0, 180, 0);
+width:100px;
+height:40px;
+}
+button.buy:hover {
+background-color:rgb(0, 120, 0);
+}
+div.nav {
+position:relative;
+top:-10px;
+background-color:black;
+outline:5px solid blue;
+padding-left:4px;
+margin:auto;
+width:800px;
+height:65px;
+}
+div.body {
+background-color:black;
+outline:5px solid blue;
+padding-left:4px;
+margin:auto;
+width:800px;
+overflow: hidden;
+position:relative;
+top:10px;
+}
+div.head {
+background-color:black;
+outline:5px solid blue;
+padding-left:4px;
+margin:auto;
+width:800px;
+}
+a.link1:hover {
+background-color:gray;
+}
+a.link1 {
+font-size:20;
+padding:20px;
+color:white;
+position:relative;
+top:21px;
+margin-left:20px;
+text-decoration:none;
+}
+p.title {
+font-size:20;
+text-indent:30px;
+color:white;
+}
+p.p {
+padding-left:30px;
+font-size:15;
+text-indent:10px;
+color:white;
+}
+img.keyboard {
+padding-left:30px;
+padding-bottom:100px;
+}

@@ -1,0 +1,170 @@
+/* Main CSS */
+
+html {
+	scroll-behavior: smooth;
+}
+h1 {
+	font-family: 'Bitter', serif;
+	color: rgb(206, 206, 206);
+}
+h2 {
+	font-family: 'Bitter', serif;
+	color: rgb(206, 206, 206);
+}
+a {
+	text-decoration: none;
+	color: white;
+	font-family: 'Bitter', serif;
+}
+p {
+	color: white;
+	font-family: 'Bitter', serif;
+	margin: 50px 95px 50px 95px;
+	text-align: center;
+	line-height: 30px;
+}
+body {
+	margin: 0px 0px 0px 0px;
+	background: url(../images/background3.png) no-repeat center center fixed;
+	background-size: cover;
+}
+div#banner {
+	overflow: hidden;
+	width: 100%;
+}
+#navbar {
+	overflow: hidden;
+	background-image: linear-gradient(rgb(44, 44, 44), rgb(65, 65, 65));
+	box-shadow: 0px 0px 10px 0px;
+	height: 47px;
+	z-index: 1;
+	width: 100%;
+}
+#logo {
+	height: 35px;
+	width: auto;
+	padding: 5px;
+	position: relative;
+	top: 14px;
+	left: -5px;
+}
+#logo>h1 {
+	margin: 9px;
+	font-size: 24px;
+	position: relative;
+	top: -22px;
+	width: fit-content;
+}
+div#logo_underline {
+	background-color: rgb(255, 50, 50);
+	background-image: linear-gradient(319deg, #ffc800, #ff3c00);
+	height: 5px;
+	position: relative;
+	top: -30px;
+	margin-left: 8px;
+	border-radius: 2px;
+	width: 153px;
+}
+div#underline {
+	background-color: rgb(255, 50, 50);
+	background-image: linear-gradient(319deg, #ffc800, #ff3c00);
+	border-radius: 2px;
+	height: 5px;
+	margin: auto;
+	width: 400px;
+	margin-top: -20px;
+}
+#navbar>a {
+	color: rgb(206, 206, 206);
+	text-decoration: none;
+	position: relative;
+	float: right;
+	top: -45px;
+	right: 40px;
+	font-size: 21px;
+	margin-left: 40px;
+	padding: 11px;
+	padding-bottom: 6px;
+	z-index: 1;
+	font-family: 'Bitter', serif;
+}
+#navbar>a:before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 3px;
+	bottom: 0px;
+	left: 0px;
+	background-color: rgb(255, 50, 50);
+	background-image: linear-gradient(319deg, #ffc800, #ff3c00);
+	visibility: hidden;
+	-webkit-transform: scaleX(0);
+	transform: scaleX(0);
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+}
+#navbar>a:hover:before {
+	visibility: visible;
+	-webkit-transform: scaleX(1);
+	transform: scaleX(1);
+}
+.content {
+	padding: 16px;
+}
+.sticky {
+	position: fixed;
+	top: 0px;
+	width: 100%;
+}
+.sticky+.content {
+	padding-top: 60px;
+}
+div#main {
+	margin: auto;
+	margin-bottom: 75px;
+	margin-top: 75px;
+	width: 75%;
+	background-color: black;
+	border-radius: 10px;
+	height: auto;
+	border: double 5px transparent;
+	background-image: linear-gradient(black, black), linear-gradient(319deg, #ffc800, #ff3c00);
+	background-origin: border-box;
+	background-clip: content-box, border-box;
+	overflow: hidden;
+}
+.hide {
+	visibility: hidden;
+}
+.show {
+	visibility: show;
+}
+#main>h1 {
+	text-align: center;
+	margin-top: 75px;
+}
+div#weather_api {
+	width: auto;
+	width: 83%;
+	margin: auto;
+	margin-bottom: 50px;
+}
+div.yt {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	width: auto;
+	width: 85%;
+	margin: auto;
+}
+iframe.yt {
+	margin: auto;
+	margin: 10px;
+	background-image: linear-gradient(319deg, rgb(75, 75, 75), rgb(100, 100, 100));
+}
+#fp_embed_player {
+	background-image: linear-gradient(319deg, rgb(75, 75, 75), rgb(100, 100, 100));
+}
+a#copy {
+	text-decoration: underline;
+}
